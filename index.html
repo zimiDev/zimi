@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="uz" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ZimiDev</title>
+    <meta name="description" content="Portfolio of Azimjon - Software Engineer & AI Student specializing in C++, Python, and Modern Web Technologies.">
+    
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!-- Icons -->
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <!-- sytles -->
+     <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Loading Screen -->
+    <div class="loading-screen" id="loadingScreen">
+        <div class="loader-text">NEYRON TARMOQLAR ULANMOQDA....</div>
+        <div class="progress-container">
+            <div class="progress" id="loadingProgress"></div>
+        </div>
+    </div>
+
+    <!-- Backgrounds -->
+    <div class="retro-grid"></div>
+    <div class="scanlines"></div>
+    <div class="crt-vignette"></div>
+
+    <!-- Theme Switcher -->
+    <div class="theme-switch hover-target" id="themeToggle">
+        <div class="switch-circle">
+            <i class="ri-moon-line switch-icon"></i>
+        </div>
+    </div>
+
+    <!-- Cursor -->
+    <div class="cursor-crosshair" id="cursor"></div>
+
+    <!-- Header -->
+    <header>
+        <!-- Brand: Zimi.dev -->
+        <a href="#home" class="logo-container hover-target">
+            <i class="ri-terminal-box-line logo-icon"></i>
+            <div class="logo-text-wrapper">
+                <div class="logo-text">ZIMI<span class="logo-dot">.DEV</span></div>
+                <div class="logo-sub"><b>AI & SOFTWARE ENGINEER</b></div>
+            </div>
+        </a>
+        
+        <div class="mobile-menu-btn hover-target" id="mobileMenuBtn">
+            <i class="ri-menu-line"></i>
+        </div>
+        <nav id="navMenu">
+            <ul>
+                <li><a href="#home" class="hover-target nav-link">HOME</a></li>
+                <li><a href="#about" class="hover-target nav-link">ABOUT</a></li>
+                <li><a href="#projects" class="hover-target nav-link">PROJECTS</a></li>
+                <li><a href="#contact" class="hover-target nav-link">CONTACT</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <section id="home" class="hero">
+        <!-- Name: Azimjon -->
+        <h1 class="main-title">ZimiDev</h1>
+        <div class="hero-sub typing-container">
+            <span class="typing-text"></span>
+        </div>
+        
+        <!-- STATS -->
+        <div class="hero-stats">
+            <div class="stat-box">
+                <div class="stat-number" data-target="3">0</div>
+                <div class="stat-label">YEARS EXP</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" data-target="1">0</div>
+                <div class="stat-label">AI STUDENT</div>
+            </div>
+            <div class="stat-box">
+                <div class="stat-number" data-target="3">0</div>
+                <div class="stat-label">REAL PROJECTS</div>
+            </div>
+        </div>
+
+        <div style="margin-top: 40px; width: 100%; max-width: 300px;">
+            <a href="#projects" class="btn-cyber hover-target">VIEW WORK</a>
+        </div>
+    </section>
+
+    <!-- About / Skills -->
+    <section id="about">
+        <div class="hud-panel reveal-on-scroll">
+            <h2 class="section-title" style="color: var(--neon-pink);">// ABOUT_ME</h2>
+            
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Salom! Men <strong>Azimjon</strong>. 3 yildan beri dasturlash dunyosida mustaqil ravishda 
+                        C++, Python va zamonaviy Web-texnologiyalarni chuqur o'rganyapman. 
+                        Hozirda PDP University da AI Engineering yo'nalishida o'qiyman.
+                    </p>
+                    <p>
+                        Mening maqsadim - algoritmik bilimlar va Artificial Intelligence 
+                        texnologiyalarini birlashtirib, amaliy dasturiy yechimlar yaratish.
+                    </p>
+
+                    <!-- TIMELINE: UPDATED -->
+                    <div class="journey-timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-year">2023-2024</div>
+                            <div class="timeline-desc">Python & Full-stack development o'rganish.</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2025</div>
+                            <div class="timeline-desc">C++ & Algorithms (Problem Solving) boshlanishi.</div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-year">2026</div>
+                            <div class="timeline-desc">AI Engineering (PDP University) va real loyihalar.</div>
+                        </div>
+                    </div>
+
+                    <!-- TECH BADGES -->
+                    <div class="tech-stack">
+                        <span class="tech-badge">PYTHON</span>
+                        <span class="tech-badge">C++</span>
+                        <span class="tech-badge">FASTAPI</span>
+                        <span class="tech-badge">POSTGRESQL</span>
+                        <span class="tech-badge">SYSTEM DESIGN</span>
+                        <span class="tech-badge">GIT</span>
+                    </div>
+                </div>
+
+                <!-- SKILLS: UPDATED ORDER & VALUES -->
+                <div class="skills-container">
+                    <div class="skill-row">
+                        <div class="skill-label"><span>PYTHON</span><span>85%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="85%"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-label"><span>C++</span><span>80%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="80%"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-label"><span>HTML / CSS</span><span>90%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="90%"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-label"><span>JAVASCRIPT</span><span>75%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="75%"></div></div>
+                    </div>
+                    <div class="skill-row">
+                        <div class="skill-label"><span>AI & DATA SCIENCE</span><span>20%</span></div>
+                        <div class="progress-bar-bg"><div class="progress-bar-fill" data-width="20%"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects -->
+    <section id="projects">
+        <h2 class="section-title">// FEATURED_PROJECTS</h2>
+        
+        <div class="projects-grid">
+            <!-- PROJECT 1: FINTRACKER -->
+            <div class="project-card reveal-on-scroll">
+                <div class="project-image">
+                    <i class="ri-money-dollar-circle-line"></i>
+                    <span class="project-status">DEV</span>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">FINTRACKER</h3>
+                    <p class="project-desc">
+                        Shaxsiy moliya tahlili ilovasi (Full-stack). Daromad va xarajatlarni kuzatish, grafiklar va hisobotlar tizimi.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Web</span>
+                        <span class="tech-tag">Finance</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link hover-target">DETAILS</a>
+                        <a href="#" class="project-link hover-target">CODE</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 2: AGROLIZ -->
+            <div class="project-card reveal-on-scroll">
+                <div class="project-image">
+                    <i class="ri-leaf-line"></i>
+                    <span class="project-status">MVP</span>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">AGROLIZ MVP</h3>
+                    <p class="project-desc">
+                        Qishloq xo'jaligi texnikalari katalogi va lizing kalkulyatori. Mahsulotlarni ko'rish va hisoblash tizimi.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">Frontend</span>
+                        <span class="tech-tag">Catalog</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link hover-target">LIVE DEMO</a>
+                        <a href="#" class="project-link hover-target">REPO</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- PROJECT 3: ALGORITHM HUB -->
+            <div class="project-card reveal-on-scroll">
+                <div class="project-image">
+                    <i class="ri-code-s-slash-line"></i>
+                    <span class="project-status">HUB</span>
+                </div>
+                <div class="project-info">
+                    <h3 class="project-title">ALGORITHM HUB</h3>
+                    <p class="project-desc">
+                        C++ va Python'da yechilgan murakkab algoritmlar to'plami. LeetCode va Codeforces masalalari yechimlari.
+                    </p>
+                    <div class="project-tech">
+                        <span class="tech-tag">C++</span>
+                        <span class="tech-tag">Python</span>
+                        <span class="tech-tag">DSA</span>
+                    </div>
+                    <div class="project-links">
+                        <a href="#" class="project-link hover-target">VIEW ALGOS</a>
+                        <a href="#" class="project-link hover-target">GITHUB</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact">
+        <div class="hud-panel reveal-on-scroll" style="max-width: 600px; margin: 0 auto; border-color: var(--neon-pink);">
+            <h2 class="section-title" style="color: var(--neon-blue);">// SEND_MESSAGE</h2>
+            
+            <form id="contactForm">
+                <input type="text" name="name" class="form-input hover-target" placeholder="YOUR NAME..." required>
+                <input type="email" name="email" class="form-input hover-target" placeholder="YOUR EMAIL..." required>
+                <input type="text" name="subject" class="form-input hover-target" placeholder="SUBJECT..." required>
+                <textarea rows="5" name="message" class="form-input hover-target" placeholder="YOUR MESSAGE..." required></textarea>
+                <button type="submit" class="btn-cyber hover-target">TRANSMIT MESSAGE</button>
+            </form>
+
+            <div class="form-status" id="formStatus"></div>
+        </div>
+    </section>
+
+    <!-- Footer with Button Style Contacts -->
+    <footer>
+        <div class="footer-title">AZIMJON (zimiDev)</div>
+        
+        <div class="footer-buttons-container">
+            <a href="https://github.com/zimidev" target="_blank" class="footer-btn hover-target">
+                <i class="ri-github-fill"></i> GITHUB
+            </a>
+            <a href="https://linkedin.com/in/zimidev" target="_blank" class="footer-btn hover-target">
+                <i class="ri-linkedin-fill"></i> LINKEDIN
+            </a>
+            <a href="https://t.me/zimidev" target="_blank" class="footer-btn hover-target">
+                <i class="ri-telegram-fill"></i> TELEGRAM
+            </a>
+            <a href="mailto:zimidevs@gmail.com" class="footer-btn hover-target">
+                <i class="ri-mail-send-fill"></i> EMAIL ME
+            </a>
+        </div>
+
+        <p>© 2025 ZIMI.DEV | AI & SOFTWARE ENGINEER</p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="message.js"></script>
+</body>
+</html>
