@@ -67,7 +67,7 @@ Distributed under the **MIT License**. See `LICENSE` for more information.
 
 ## 📬 System Contact
 
-* **Developer:** [Your Name]
+* **Developer:** zimiDev
 * **Telegram:** [@zimidev](https://t.me/zimidev)
 * **GitHub:** [zimidev](https://github.com/zimidev)
 
