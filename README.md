@@ -1,40 +1,75 @@
-# zimiDev
-🚀 Cyberpunk-themed personal portfolio for a Software Engineer &amp; AI Student. Features high-performance animations, Dark/Light mode, CRT effects, and Telegram Bot API integration for direct messaging. Built with HTML5, CSS3, and Vanilla JavaScript.
 # ⚡ ZimiDev - Retro-Futuristic Portfolio 🖥️
 
-![Version](https://img.shields.io/badge/version-1.0.0-blueviolet)
-![License](https://img.shields.io/badge/license-MIT-green)
-![Tech](https://img.shields.io/badge/tech-HTML5%20%7C%20CSS3%20%7C%20JS-orange)
+> **A high-octane, Cyberpunk-themed digital environment for a Software Engineer & AI Student.**
 
-**ZimiDev** — bu Software Engineer va AI yo'nalishi talabasi uchun maxsus tayyorlangan, Cyberpunk uslubidagi interaktiv portfolio sayti. Sayt foydalanuvchini retro-futuristik muhitga olib kiradi va dasturchining ko'nikmalarini noodatiy tarzda namoyish etadi.
-
----
-
-## ✨ Asosiy Xususiyatlari
-
-* **Cyberpunk UI:** Tron-grid fon, CRT scanlines va neon chiroqlar bilan jihozlangan interfeys.
-* **Dual Mode:** Foydalanuvchi xohishiga ko'ra Dark va Light rejimlari o'rtasida almashish imkoniyati.
-* **Telegram Bot Integration:** Aloqa formasi orqali yuborilgan xabarlar to'g'ridan-to'g'ri Telegram botga kelib tushadi.
-* **Dynamic HUD Elements:** * Neyron tarmoqlar ulanishini simulyatsiya qiluvchi Loading screen.
-    * Statistik ma'lumotlar uchun animatsion hisoblagichlar.
-    * Matn yozish effekti (Typing effect).
-* **Interactive Cursor:** Sifatli va silliq harakatlanuvchi maxsus kursor (Crosshair).
-* **Fully Responsive:** Mobil qurilmalardan tortib keng ekranli monitorlargacha mukammal moslashuvchanlik.
+![Version](https://img.shields.io/badge/version-1.0.0-blueviolet?style=for-the-badge)
+![License](https://img.shields.io/badge/license-MIT-green?style=for-the-badge)
+![Tech](https://img.shields.io/badge/tech-HTML5%20%7C%20CSS3%20%7C%20JS-orange?style=for-the-badge)
 
 ---
 
-## 🛠️ Texnologiyalar
+## 🚀 Overview
 
-* **Struktura:** HTML5 (Semantic tags)
-* **Dizayn:** CSS3 (Custom Properties, Keyframes, Flexbox, Grid)
-* **Logika:** Vanilla JavaScript (ES6+)
-* **Icons:** Remix Icon kutubxonasi
-* **Fonts:** Google Fonts (Press Start 2P, Share Tech Mono)
+**ZimiDev** is more than just a portfolio; it’s a digital experience. Built for those who live at the intersection of **Software Engineering** and **Artificial Intelligence**, this site transports users into a retro-futuristic world. It combines raw technical performance with a "High-Tech, Low-Life" aesthetic.
 
 ---
 
-## 🚀 Ishga tushirish
+## ✨ System Features
 
-1. Repozitoriyani klonlang:
-   ```bash
-   git clone [https://github.com/zimidev/portfolio.git](https://github.com/zimidev/portfolio.git)
+* **🌐 Cyberpunk UI/UX:** Features a custom Tron-grid background, authentic CRT scanline overlays, and neon-flicker animations.
+* **🌓 Dual Mode Architecture:** Optimized Dark and Light modes tailored for both night-runners and day-hackers.
+* **🤖 Telegram Bot Integration:** Integrated contact portal using the Telegram Bot API for real-time instant messaging.
+* **📡 Dynamic HUD Elements:**
+    * **Neural Preloader:** A simulated system boot-up sequence.
+    * **Matrix Counters:** Animated statistics and progress trackers.
+    * **Terminal Typing:** Interactive text-rendering effects for a "live-code" feel.
+* **🎯 Precision Crosshair:** Custom-engineered interactive cursor for enhanced UI engagement.
+* **📱 Fully Responsive:** Adaptive neural interface that scales from mobile devices to ultra-wide workstation monitors.
+
+---
+
+## 🛠️ Technical Stack
+
+| Layer | Technology |
+| :--- | :--- |
+| **Structure** | HTML5 (Semantic & SEO Optimized) |
+| **Styling** | CSS3 (Custom Properties, Keyframes, Grid & Flexbox) |
+| **Core Logic** | Vanilla JavaScript (ES6+ Clean Code) |
+| **Visual Assets** | Remix Icon Library |
+| **Typography** | Google Fonts (*Press Start 2P*, *Share Tech Mono*) |
+
+---
+
+## 💻 Installation & Setup
+
+1.  **Clone the Repository:**
+    ```bash
+    git clone [https://github.com/zimidev/portfolio.git](https://github.com/zimidev/portfolio.git)
+    ```
+
+2.  **Environment Configuration:**
+    Navigate to the `js/` directory and update your API credentials:
+    ```javascript
+    const BOT_TOKEN = "YOUR_TELEGRAM_BOT_TOKEN";
+    const CHAT_ID = "YOUR_CHAT_ID";
+    ```
+
+3.  **Deployment:**
+    No build process required. Simply launch `index.html` via Live Server or deploy to **GitHub Pages / Vercel**.
+
+---
+
+## 📜 License
+
+Distributed under the **MIT License**. See `LICENSE` for more information.
+
+---
+
+## 📬 System Contact
+
+* **Developer:** [Your Name]
+* **Telegram:** [@zimidev](https://t.me/zimidev)
+* **GitHub:** [zimidev](https://github.com/zimidev)
+
+---
+*Created with ⚡ by zimiDev*
